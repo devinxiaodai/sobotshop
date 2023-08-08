@@ -1,0 +1,72 @@
+.card_wide{
+      width:320px;
+      height:132px
+}
+.card_ele{
+     width: 320px ;
+      height: 100px ;
+      border:  1px solid #e0edfd ;
+      padding:  10px ;
+      border-Radius:  8px ;
+      background:  #fff ;
+margin-bottom:10px;
+}
+.card_elea{
+color:#3d4966;
+text-Decoration:none
+}
+.card_title{
+margin:0;
+padding:0;
+margin-bottom:10px;
+width:100%;
+white-space:nowrap;
+word-break:break-all;
+text-overflow:ellipsis;
+overflow:hidden
+}
+.area{
+display:flex
+}
+.card_picture{
+width:65px;
+height:65px
+}
+.card_desc{
+display:flex;
+margin:0;
+padding:0;
+color:#acb5c4;
+margin-bottom:10px;
+display:inline-block;
+width:100%;
+white-space:nowrap;
+word-break:break-all;
+text-overflow:ellipsis;
+overflow:hidden
+}
+.desc_area{
+width:210px;
+margin-left:10px
+}
+.card_note{
+margin:0;
+padding:0;
+width:80px;
+color:#0f92ed;
+float:left
+}
+.area .send{
+      display:block;
+      float:right;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      color: #fff;
+      background: #0daeaf;
+      border-radius: 2px;
+      font-size:14px;
+      line-height:28px;
+      width:48px;
+      text-align:center;
+    }
