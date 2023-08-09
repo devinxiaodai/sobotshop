@@ -9,7 +9,7 @@ root.render(
     <StrictMode> 
         <Cardlist />
         <DatePicker />
-
+ 
     </StrictMode>
 )
 
