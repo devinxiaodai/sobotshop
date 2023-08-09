@@ -6,7 +6,7 @@ import { DatePicker } from 'antd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <StrictMode> 
+    <StrictMode>  
         <Cardlist />
         <DatePicker />
   
