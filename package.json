@@ -17,8 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-  "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "webpack-dev-server"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +41,9 @@
   },
   "devDependencies": {
     "antd": "^5.8.2",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
-  
 }
