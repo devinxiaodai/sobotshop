@@ -9,7 +9,7 @@ class Cardlist extends Component{
                 <MyButton />
             </div>
             )
-    }
+    } 
 }
 export default Cardlist
  
