@@ -42,7 +42,7 @@ const userobj =
                     <p><span className='bold'>会员积分</span> : <span className='userValue'>{userobj.integral}</span></p>
                     <p><span className='bold'>过期时间</span> : <span className='userValue'>{userobj.registTime}</span></p>
                     <p><span className='bold'>购次</span> : <span className='userValue'>{userobj.buyTimes}</span></p>
-                    <p><span className='more'>更多...</span></p>
+                    <p><span className='more'><a href="https://www.taobao.com" target='_blank' rel="noreferrer">更多...</a></span></p>
 
                 </div>
                 <div className='clear'></div> 

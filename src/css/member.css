@@ -13,7 +13,12 @@ h4{
 }
 .more{
     margin-left:100px;
-    color:#0f92ed
+    cursor: pointer;
+}
+.more a{
+    text-decoration: none;
+    color:#0f92ed;
+
 }
 .userArea{
     width:380px;
