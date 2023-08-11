@@ -1,13 +1,16 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import Cardlist from './router/index';
+import Goodlist from './pages/goodlist';
+import Member from './pages/member';
 import { DatePicker } from 'antd';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <StrictMode> 
-        <Cardlist />
+        <Member />
+        <Goodlist />
+
     </StrictMode>
 ) 
 
