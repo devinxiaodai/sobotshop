@@ -7,6 +7,9 @@ import React, { Component } from 'react';
     constructor(props){
         super(props);
         this.sendHandler=this.sendHandler.bind(this);
+        this.createTicketHandler=this.createTicketHandler.bind(this);
+
+        
         this.state = {
             loading: true,
             orderArrays:[{
