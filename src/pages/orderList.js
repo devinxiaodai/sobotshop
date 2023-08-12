@@ -47,7 +47,20 @@ import React, { Component } from 'react';
                     {"name":"索尼IMX890旗舰同款主摄 100W超级闪充 5000mAh大电池 大内存5G手机","pictureUrl":"https://img3.sobot.com/chatres/b77e9e46bdc34890b91dab906f7114e2/msg/20230810/fc57ac9b20d4df35a77e0d6aa160efcc/11c316b8dd70484ab77d4b7ae968bf75.jpg"},
                     {"name":"OnePlus王牌兔新款游戏旗舰智能5G手机满血版骁龙8+处理器享OPPO官方售后","pictureUrl":"https://img3.sobot.com/chatres/b77e9e46bdc34890b91dab906f7114e2/msg/20230810/fc57ac9b20d4df35a77e0d6aa160efcc/2d4e66981589426480d2df2a6f9a7e75.jpg"}
                 ]
-            }
+            },
+            orderArrayTruth2:{
+                "order_status": 1,
+                "create_time": +new Date(),
+                "order_code": "BZ9208920350923",
+                "order_url": "https://www.taobao.com/",
+                "goods_count": 2,
+                "total_fee": 343250,
+                "goods": [
+                  {"name":"索尼IMX890旗舰同款主摄 100W超级闪充 5000mAh大电池 大内存5G手机","pictureUrl":"https://img3.sobot.com/chatres/b77e9e46bdc34890b91dab906f7114e2/msg/20230810/fc57ac9b20d4df35a77e0d6aa160efcc/11c316b8dd70484ab77d4b7ae968bf75.jpg"},
+                  {"name":"OnePlus王牌兔新款游戏旗舰智能5G手机满血版骁龙8+处理器享OPPO官方售后","pictureUrl":"https://img3.sobot.com/chatres/b77e9e46bdc34890b91dab906f7114e2/msg/20230810/fc57ac9b20d4df35a77e0d6aa160efcc/2d4e66981589426480d2df2a6f9a7e75.jpg"}
+                  ]
+              }
+              
         }
     }
     componentDidMount(){
@@ -64,10 +77,10 @@ import React, { Component } from 'react';
         }, '*');
     }
     createTicketHandler(){
-        console.log(this);
+        console.log(this.state.orderArrayTrut2);
         window.parent.postMessage({
             type: 'createOrder',  //固定值
-            params:JSON.parse(this.state.orderArrayTruth)
+            params:JSON.parse(this.state.orderArrayTruth2)
         }, '*');
     }
     render(){
