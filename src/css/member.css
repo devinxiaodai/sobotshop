@@ -11,26 +11,29 @@ h4{
 .bold{
     color:#8598B7;
 }
+.userPlist .org{
+   /* color: #ff910c */
+}
 .more{
     margin-left:100px;
     cursor: pointer;
+    font-size:12px;
 }
 .more a{
     text-decoration: none;
     color:#0f92ed;
 
 }
-.userArea{
-    width:380px;
-}
 .userValue{
     color: #3d4966;
 }
 .userArea{
-    margin-bottom: 30px;
+    width:380px;
+    margin-bottom: 20px;
 }
 .userArea p{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size:14px;
 }
 .userPlist{
     float:left;

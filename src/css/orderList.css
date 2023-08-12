@@ -1,0 +1,112 @@
+.orderArea{
+    margin-bottom:20px;
+}
+.order_wide{
+    width:333px;
+    height:180px
+}
+.order_wide .card_ele{
+   width: 320px ;
+    height: 117px ;
+    border:  1px solid #e0edfd ;
+    padding:  10px ;
+    border-Radius:  8px ;
+    background:  #fff ;
+}
+.order_wide .card_elea{
+color:#3d4966;
+text-Decoration:none
+}
+.order_wide .card_elea .orderkey{
+    color:#8598B7;
+    font-size: 14px;
+}
+.order_wide .card_elea .ordernum{
+    font-size:14px;
+}
+.order_wide .card_title{
+margin:0;
+padding:0;
+width:100%;
+white-space:nowrap;
+word-break:break-all;
+text-overflow:ellipsis;
+overflow:hidden
+}
+.order_wide .mb5{
+    margin-bottom: 5px;
+}
+.order_wide .area{
+display:flex
+}
+.order_wide .card_picture{
+width:65px;
+height:65px
+}
+.order_wide .card_desc{
+display:flex;
+margin:0;
+padding:0;
+color:#acb5c4;
+margin-bottom:10px;
+display:inline-block;
+width:100%;
+white-space:nowrap;
+word-break:break-all;
+text-overflow:ellipsis;
+overflow:hidden
+}
+.order_wide .desc_area{
+    
+}
+.order_wide .desc_area p .orderkey{
+    font-size:14px;
+    color:#8598B7;
+
+}
+.order_wide .desc_area p .orderstatus{
+    font-size:14px;
+    color:#3d4966;
+
+}
+.order_wide .desc_area p .ordertime{
+    font-size:14px;
+    color:#3d4966;
+
+}
+.order_wide .desc_area{
+margin-left:10px
+}
+.order_wide .card_note{
+margin:0;
+padding:0;
+width:80px;
+color:#0f92ed;
+float:left
+}
+.order_wide .send{
+    display:block;
+    float:right;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #0daeaf;
+    border-radius: 2px;
+    font-size:14px;
+    line-height:28px;
+    margin:5px;
+    padding:0 10px;
+    text-align:center;
+  }
+
+.moreorder{
+    margin-left:256px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.moreorder a{
+    text-decoration: none;
+    color:#0f92ed;
+
+}

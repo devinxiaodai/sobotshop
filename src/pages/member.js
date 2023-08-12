@@ -5,10 +5,10 @@ import React, { Component } from 'react';
 const userobj = 
   {
     memNum: "XB000301",
-    integral: '314159.26', 
-    memType:'高级会员',
+    integral: '34159.26', 
+    memType:'普通会员',
     registTime:'5年',
-    customeramount:'13099元',
+    customeramount:'1099元',
     balance:'2300元',
     birth:'1993/05/02',
     status:'正常',
@@ -30,7 +30,7 @@ const userobj =
                 <h4>会员信息：</h4>
                 <div className='userPlist'>
                     <p><span className='bold'>会员编号</span> : <span className='userValue'>{userobj.memNum}</span></p>
-                    <p><span className='bold'>会员等级</span> : <span className='userValue'>{userobj.memType}</span></p>
+                    <p><span className='bold'>会员等级</span> : <span className='userValue org'>{userobj.memType}</span></p>
                     <p><span className='bold'>会员生日</span> : <span className='userValue'>{userobj.birth}</span></p>
                     <p><span className='bold'>注册时间</span> : <span className='userValue'>{userobj.registTime}</span></p>
                     <p><span className='bold'>消费总额</span> : <span className='userValue'>{userobj.customeramount}</span></p>
@@ -42,7 +42,7 @@ const userobj =
                     <p><span className='bold'>会员积分</span> : <span className='userValue'>{userobj.integral}</span></p>
                     <p><span className='bold'>过期时间</span> : <span className='userValue'>{userobj.registTime}</span></p>
                     <p><span className='bold'>购次</span> : <span className='userValue'>{userobj.buyTimes}</span></p>
-                    <p><span className='more'><a href="https://www.taobao.com" target='_blank' rel="noreferrer">更多...</a></span></p>
+                    <p><span className='more'><a href="https://www.taobao.com" target='_blank' rel="noreferrer">查看更多...</a></span></p>
 
                 </div>
                 <div className='clear'></div> 

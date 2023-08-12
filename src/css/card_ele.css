@@ -2,7 +2,7 @@
       width:320px;
       height:132px
 }
-.card_ele{
+.card_wide .card_ele{
      width: 320px ;
       height: 100px ;
       border:  1px solid #e0edfd ;
@@ -11,11 +11,11 @@
       background:  #fff ;
 margin-bottom:10px;
 }
-.card_elea{
+.card_wide .card_elea{
 color:#3d4966;
 text-Decoration:none
 }
-.card_title{
+.card_wide .card_title{
 margin:0;
 padding:0;
 margin-bottom:10px;
@@ -25,14 +25,14 @@ word-break:break-all;
 text-overflow:ellipsis;
 overflow:hidden
 }
-.area{
+.card_wide .area{
 display:flex
 }
-.card_picture{
+.card_wide .card_picture{
 width:65px;
 height:65px
 }
-.card_desc{
+.card_wide .card_desc{
 display:flex;
 margin:0;
 padding:0;
@@ -45,18 +45,18 @@ word-break:break-all;
 text-overflow:ellipsis;
 overflow:hidden
 }
-.desc_area{
+.card_wide .desc_area{
 width:210px;
 margin-left:10px
 }
-.card_note{
+.card_wide .card_note{
 margin:0;
 padding:0;
 width:80px;
 color:#0f92ed;
 float:left
 }
-.area .send{
+.card_wide .area .send{
       display:block;
       float:right;
       cursor: pointer;
@@ -69,4 +69,15 @@ float:left
       line-height:28px;
       width:48px;
       text-align:center;
-    }
+}
+
+.moreogood{
+      margin-left:256px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .moregood a{
+      text-decoration: none;
+      color:#0f92ed;
+  
+  }
