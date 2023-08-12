@@ -77,10 +77,10 @@ import React, { Component } from 'react';
         }, '*');
     }
     createTicketHandler(){
-        console.log(this.state.orderArrayTrut2);
+        console.log(this.state.orderArrayTruth2);
         window.parent.postMessage({
             type: 'createOrder',  //固定值
-            params:JSON.parse(this.state.orderArrayTruth2)
+            params:this.state.orderArrayTruth2
         }, '*');
     }
     render(){
