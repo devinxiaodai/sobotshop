@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Goodlist from './pages/goodlist';
 import Member from './pages/member';
 import Orderlist from './pages/orderList';
+import Customcard from './pages/customcard';
 
 import { DatePicker } from 'antd';
 
@@ -13,6 +14,8 @@ root.render(
         <Member />
         <Orderlist/>
         <Goodlist />
+        <Customcard />
+
     </StrictMode>
 ) 
 

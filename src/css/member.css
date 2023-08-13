@@ -1,9 +1,11 @@
-p,h4{
+p{
     margin:0;
     padding:0
 }
-h4{
-    margin-bottom: 15px;
+.h4{
+    margin-bottom: 10px;
+    font-size:15px;
+    font-weight: 600;
 }
 .clear{
     clear:both
@@ -31,7 +33,7 @@ h4{
     width:380px;
     margin-bottom: 20px;
 }
-.userArea p{
+.userArea .p4{
     margin-bottom: 5px;
     font-size:14px;
 }

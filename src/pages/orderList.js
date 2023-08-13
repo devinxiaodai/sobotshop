@@ -86,7 +86,7 @@ import React, { Component } from 'react';
     render(){
         return(
             <div className='orderArea'>
-            <h4>历史订单：</h4>
+            <p className='h4'>历史订单：</p>
             {this.state.orderArrays.map(orderArray=>
                 <div className='order_wide' key={orderArray.orderCode}>
                   <div className="card_ele"  >

@@ -38,7 +38,7 @@ class Cardlist extends Component{
     render(){ 
         return(
             <div>
-                <h4>推荐商品：</h4>
+                <p className="h4">推荐商品：</p>
                 {this.state.products.map(product=>
                     <div className='card_wide' key={product.id}>
                     <div className="card_ele"  >

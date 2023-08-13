@@ -1,0 +1,26 @@
+.customCard{
+    width:333px;
+    height:180px;
+    margin-top:20px;
+}
+.customCard .h5{
+    font-size:13px;
+    color:#3d4966;
+    margin:5px 0px;
+}
+.customCard .send{
+    display:block;
+    float:right;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #0daeaf;
+    border-radius: 2px;
+    font-size:14px;
+    line-height:28px;
+    margin:5px;
+    padding:0 10px;
+    text-align:center;
+  }
+ 
